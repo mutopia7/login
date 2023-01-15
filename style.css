@@ -1,0 +1,189 @@
+*{
+	box-sizing: border-box;
+	direction: rtl;
+	border-width: 1px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Yekan Bakh';
+	font-style: normal;
+}
+
+
+.rside{
+	flex: 40%;
+	background-color: #fff;	
+}
+
+.lside{
+	flex: 60%;
+}
+
+.coll{
+	display: flex;
+	flex-direction: column;
+}
+
+.row{
+	display: flex;
+}
+
+.col{
+	
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	
+}
+
+.col > div{
+	padding: 15px;
+}
+
+
+#rtitr{
+	color: #2D325C;
+	
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+
+.nav a{
+	text-align: center;
+	text-decoration: none;
+	color: #143235;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 0px 55px 10px 55px;
+
+}
+
+.nav a:hover{
+	color: #00A6B6;
+	border-bottom: solid 1px #00A6B6;
+
+}
+
+
+form{
+	font-weight: 500;
+	font-size: 14px;
+}
+	
+form input {
+	display: block;
+	padding: 15px;
+	direction: ltr;
+	width: 20vw;
+	border-radius: 5px;
+	background-color: #FCFDFE;
+}
+
+input[type="submit"]{
+	background-color: #00A6B6;
+	cursor: pointer;
+	border: none;
+}
+
+input[type="checkbox"]{
+	width: 15px;
+	display: inline;
+}
+
+#ramz{
+	text-decoration: none;
+	color: #00A6B6;
+	font-weight: 500;
+	font-size: 12px;
+	margin-right: 6vw;
+}
+
+#copy{
+	
+	color: #9698AD;
+	font-size: 14px;
+	margin: 0px;
+}
+
+
+.ltop{
+	flex: 70%;
+	display: grid;
+	background-color: #00A6B6;
+}
+
+.lbottom{
+	flex: 30%;
+	display: grid;
+	background-color: #006A7A;
+}
+
+.col2{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;	
+	flex-wrap: wrap;
+	
+}
+
+#logo{
+	padding: 40px 70px;
+	border-width: 17px 20px 26px 20px;
+	border-style: solid;
+	border-color: #E9E9E9;
+	border-radius: 10px;
+	background: #FFFFFF;
+}
+
+#shadow{
+	margin-top: -12px;
+	width: 450px;
+	border-bottom: solid 15px #CBCBCB;
+	border-radius: 70%;
+}
+
+
+#titr1{
+	font-weight: 500;
+	font-size: 19px;
+	color: #F9F9FA;
+	margin-bottom: 8px;
+}
+
+#titr2{
+	font-weight: 500;
+	font-size: 20px;
+	color: #F9F9FA;
+	margin-bottom: 30px;
+}
+
+#titr3{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+#titr4{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-top: 20px;
+	
+}
+
+@media screen and (max-width: 850px){
+	.row{
+		flex-direction: column-reverse;
+	}
+}
